@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-weight: 600;
+}
+
+.node--type-cv {
+    padding: 30px;
+}
+
+.node--type-cv ul {
+    line-height: 1.8;
+}

@@ -1,0 +1,8 @@
+name: IT Landscape CV
+type: theme
+description: 'Custom thema voor mijn Drupal CV.'
+package: Custom
+core_version_requirement: ^10 || ^11
+base theme: olivero
+libraries:
+  - it_landscape_cv/global-styling
