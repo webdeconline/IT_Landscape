@@ -5,6 +5,8 @@ services:
       - "8081:80"
     depends_on:
       - db
+    volumes:
+      - drupal_sites:/var/www/html/sites
 
   db:
     image: mariadb:latest
@@ -13,3 +15,9 @@ services:
       MYSQL_DATABASE: drupal
       MYSQL_USER: drupal
       MYSQL_PASSWORD: drupalpassword
+    volumes:
+      - drupal_db:/var/lib/mysql
+
+volumes:
+  drupal_sites:
+  drupal_db:
