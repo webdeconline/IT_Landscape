@@ -7,9 +7,9 @@ In het project heb ik gewerkt met verschillende technologieën rond Docker, data
 ## Onderdelen
 
 - Docker Basics
-- CMS 
-- MongoDB 
-- CI/CD 
+- CMS  met Drupal en MariaDB
+- MongoDB met Mongo Express
+- CI/CD met Github Actions en Github Container Registry
 
 ## Documentatie
 
